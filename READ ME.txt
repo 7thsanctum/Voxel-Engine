@@ -1,0 +1,33 @@
+Author : Mark M. Miller
+Matric. Number : 10006179
+Project : Honours Submission CD
+Date : 21/04/2014
+
+Supervisor : Andrew Cumming
+Second Marker : Taoxin Peng
+
+This document contains the honours project submission for Mark M. Miller (10006179)
+
+There are two projects withing the "Voxel Engine" folder, these contain two versions of
+ the engines used for this project. The optimised and unoptimised versions. The "Common"
+folder must be included for the projects to be compiled. Alongside this, the other dependencies
+are Libnoise and the DirectX SDK (June 2010).
+
+A digital version of the report (int PDF and Word format) has also been included in the 
+root directory alongside the presentation.
+
+
+Controls for Application
+------------------------
+WASD - Camera Movement
+Left Click mouse and Drag - Control Camera Direction
+R,T,Y,U and I switch between the different data sets
+1,2,3 toggle the different optimisations (they are on by default)
+F toggles active frustum culling (warning! this can get stuck on if the frame rate drops too low)
+Tab - Toggles Text on Screen
+C - Takes a number of frame samples to calculate the Average Frametime of the application
+
+Notes for editing application
+------------------------------
+Altering the integer property inside the VoxelSystem file will allow different data size
+resolutions. The default is 8.
